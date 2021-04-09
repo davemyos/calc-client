@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  background: #382757;
+  height: 565px;
+  width: 16rem;
+  margin: 0 auto 0 auto;
+  border-radius: 5px;
+}
+
+.display {
+  background: #29d3a2;
+  height: 45px;
+  width: 14rem;
+  border-radius: 5px;
+  border: 1px solid darken(#382757, 10%);
+  position: relative;
+  top: 10px;
+  margin: 0 auto 0 auto;
+  padding: 0 5px;
+  color: #382757;
+  font-family: monospace;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 45px;
+  letter-spacing: 2px;
+  text-align: right;
+  overflow-y:hidden;
+  overflow-x:hidden;
+}
+
+.keyPad {
+  top: 20px;
+  position: relative;
+  background: #af4ccf;
+  border-radius: 5px;
+  width: 14rem;
+  height: 280px;
+  margin: 0 auto 0 auto;
+  padding: 0 5px;
+}
+
+button {
+  background-color: #eee;
+  border: thin solid #ddd;
+  border-radius: 10px;
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  font-size: 25px;
+}
+
+.calculationLog {
+  background: #fd7878;
+  height: 200px;
+  width: 14rem;
+  border-radius: 5px;
+  border: 1px solid darken(#2f1674, 10%);
+  position: relative;
+  top: 30px;
+  margin: 0 auto 0 auto;
+  padding: 0 5px;
+  color: rgb(27, 3, 29);
+  font-family: monospace;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: right;
+  overflow-y:hidden;
+  overflow-x:hidden;
+}
+
+ul {
+  list-style-type: none;
+  position: relative;
+  margin: 0 auto 0 auto;
+  padding: 0 5px;
+  width: 14rem;
+}
