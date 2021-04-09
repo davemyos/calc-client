@@ -15,8 +15,8 @@ const App = () => {
   const [input, setInput] = useState("0");
   const [prevNum, setPrevNum] = useState("");
   const [curNum, setCurNum] = useState("");
-  const [operator, setOperator] = useState("");  
-	const [calculationLog, setCalculationLog] = useState([]);
+  const [operator, setOperator] = useState("");
+  const [calculationLog, setCalculationLog] = useState([]);
   const [waitingForNewNum, setWaitingForNewNum] = useState(true);
 
   useEffect(() => {
@@ -156,7 +156,7 @@ const App = () => {
           <Button Text="+" onClick={performOperation} />
         </div>
         <div>
-          <Button Text="AC" onClick={handleClear} />
+          <Button Text="C" onClick={handleClear} />
           <Button Text="0" onClick={addZeroToInput} />
           <Button Text="." onClick={addDecimalToInput} />
           <Button Text="-" onClick={performOperation} />
